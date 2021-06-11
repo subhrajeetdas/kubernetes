@@ -4,7 +4,7 @@ apiVersion: v1
    name: nginx-yaml
  spec:
    containers:
-       image: nginx
      - name: nginx
-       ports:
+       image: nginx
+    ports:
          - containerPort: 80
